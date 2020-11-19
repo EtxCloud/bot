@@ -1,0 +1,136 @@
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+a {
+    color: gold;
+}
+
+.layui-field-title {
+    color: gold;
+}
+
+.layui-card {
+    background-color: #333;
+
+    .layui-card-header {
+        color: wheat;
+
+    }
+
+    .layui-colla-title {
+        background-color: #444;
+        color: wheat;
+    }
+
+    .layui-colla-content {
+        color: #FFF;
+    }
+
+    th {
+        color: wheat;
+        background-color: #444;
+    }
+
+    .layui-table-body {
+        overflow: hidden;
+
+
+        td {
+            color: #fff;
+            background-color: #444;
+        }
+    }
+}
+
+#chat {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .chatroom {
+        min-height: 500px;
+        height: 100%;
+        overflow: auto;
+        padding-bottom: 50px;
+    }
+
+    .bot {
+        text-align-last: left;
+        padding: 10px;
+
+    }
+
+    i {
+        display: inline-block;
+        vertical-align: middle;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: url(../imgs/joseph.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    span {
+        word-break: break-all;
+        display: inline-block;
+        vertical-align: middle;
+        text-align-last: left;
+        max-width: 80%;
+        padding: 20px;
+        border: 10px solid transparent;
+        border-image: url(../imgs/bg.png) 65 fill e('/') 65px repeat;
+    }
+
+    .user {
+        text-align: right;
+        padding: 10px;
+
+        i {
+            background: url(../imgs/jotaro.jpg) no-repeat;
+            background-size: cover;
+
+        }
+    }
+
+    .end {
+        height: 50px;
+        width: 100%;
+        padding: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: #444;
+
+        .text_input {
+            text-indent: 1em;
+            float: left;
+            width: 75%;
+            margin: 0 2%;
+            height: 100%;
+            border-radius: 10px;
+            background-color: #111;
+            color: #fff;
+        }
+
+        .send {
+            float: right;
+            width: 60px;
+            height: 100%;
+            border-radius: 5px;
+            box-shadow: inset 2px 2px rgba(0, 0, 0, .3);
+            color: gold;
+            background-color: #000;
+        }
+    }
+}
+
+.layui-layer {
+    min-width: 315px;
+}
+
+.layui-layer-page div.layui-layer-content {
+    background-color: #333;
+}
